@@ -1,7 +1,7 @@
 package br.com.fiap.healthtrack.user.dao.mongodbao
 
-import br.com.fiap.healthtrack.br.com.fiap.mongodb.BasicMongoDBDao
-import br.com.fiap.healthtrack.br.com.fiap.mongodb.NoSQLClientManagerMongoDB
+import br.com.fiap.healthtrack.mongodb.BasicMongoDBDao
+import br.com.fiap.healthtrack.mongodb.NoSQLClientManagerMongoDB
 import br.com.fiap.healthtrack.user.Genero
 import br.com.fiap.healthtrack.user.User
 import br.com.fiap.healthtrack.user.dao.UserDao
@@ -37,7 +37,7 @@ class UserMongoDBDao :  BasicMongoDBDao<User>(),UserDao {
     override fun updateUser(user: User) {
         val mongoCollection = getMongoCollection()
         try {
-            mongoCollection.replaceOne(Filters.eq("id", user.id), user)
+            mongoCollection.replaceOne(Filters.eq("id", user._id), user)
         } finally {
             NoSQLClientManagerMongoDB.closeClient()
         }

@@ -1,9 +1,8 @@
 package br.com.fiap.healthtrack.medidas.dao.mongodb
-import br.com.fiap.healthtrack.br.com.fiap.mongodb.BasicMongoDBDao
-import br.com.fiap.healthtrack.br.com.fiap.mongodb.NoSQLClientManagerMongoDB
+import br.com.fiap.healthtrack.mongodb.BasicMongoDBDao
+import br.com.fiap.healthtrack.mongodb.NoSQLClientManagerMongoDB
 import br.com.fiap.healthtrack.medidas.*
 import br.com.fiap.healthtrack.medidas.dao.MedidasDao
-import br.com.fiap.healthtrack.user.dao.mongodbao.UserMongoDBDao
 import com.mongodb.client.MongoCollection
 import com.mongodb.client.model.Filters
 import java.util.*
@@ -33,7 +32,7 @@ abstract class MedidasMongoDBDao<T> : BasicMongoDBDao<T>(), MedidasDao<T> {
 
     override fun updateMedida(medida: T) {
         try {
-            getMongoCollection().updateOne(Filters.eq(medida),Filters.eq(medida));
+            getMongoCollection().replaceOne(Filters.eq("_id", (medida as Medida)._id), medida);
         } finally {
             NoSQLClientManagerMongoDB.closeClient()
         }
@@ -41,7 +40,7 @@ abstract class MedidasMongoDBDao<T> : BasicMongoDBDao<T>(), MedidasDao<T> {
 
     override fun deleteMedida(medida: T) {
         try {
-            getMongoCollection().deleteOne(Filters.eq(medida))
+            getMongoCollection().deleteOne(Filters.eq("_id", (medida as Medida)._id))
         } finally {
             NoSQLClientManagerMongoDB.closeClient()
         }
@@ -65,10 +64,10 @@ abstract class MedidasMongoDBDao<T> : BasicMongoDBDao<T>(), MedidasDao<T> {
         return result;
     }
 
-    override fun getListaMedidas(): List<T> {
+    override fun getListaMedidas(email: String?): List<T> {
         val list = ArrayList<T>()
         try {
-            val find = getMongoCollection().find()
+            val find = getMongoCollection().find(Filters.eq("user.email", email))
             for (t in find) {
                 list.add(t)
             }
@@ -77,13 +76,13 @@ abstract class MedidasMongoDBDao<T> : BasicMongoDBDao<T>(), MedidasDao<T> {
         }
         return list
     }
-}
 
-fun main(args: Array<String>) {
-    val user = UserMongoDBDao().getUserByEmail("sidharta.rezende@gmail.com")
-    val dao = AlimentacaoMongoDBDao()
-    val a1 = Alimentacao(user, Date(), 100, TipoAlimentacao.ALMOCO, "")
-    dao.insertMedida(a1)
-    println(dao.getListaMedidas().get(0).tipo.descricao)
+    override fun purgeAll() {
+        try {
+            getMongoCollection().drop()
+        } finally {
+            NoSQLClientManagerMongoDB.closeClient()
+        }
 
+    }
 }
