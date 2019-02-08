@@ -11,8 +11,9 @@ import org.bson.codecs.DecoderContext
 import org.bson.codecs.EncoderContext
 import java.util.*
 
-class Peso( user : User, data : Date, var peso: Double) : Medida( user, data){
+class Peso( user : User?, data : Date, var peso: Double) : Medida( user, data){
     constructor() : this(User(), Date(), 0.0)
+    constructor(data : Date,  peso: Double) : this(null,  data, peso)
 }
 
 enum class IMC(id : String, descricao : String){

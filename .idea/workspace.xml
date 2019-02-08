@@ -1,162 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af7ed4af-8cd4-4fcd-bd63-ec8ea2d52d2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/TokenController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt" afterDir="false" />
+    <list default="true" id="3610dfe9-5bef-4547-8226-6fede3b54168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_kmehrunes_javalin_jwt_v0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_javalin_javalin_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HealthTrackKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HealthTrackKotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/br/com/fiap/mongodb/MongoDBBase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Alimentacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Alimentacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthTrackKotlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Pressao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Pressao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HealthTrackTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealthTrackTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/HealthTrackKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/HealthTrackKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/br/com/fiap/mongodb/BasicMongoDBDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/br/com/fiap/mongodb/NoSQLClientManagerMongoDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Alimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Alimentacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/AtividadeFisica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/AtividadeFisica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/IMC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/IMC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Medida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Medida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/MedidaCalorico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/MedidaCalorico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Peso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Peso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Pressao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/Pressao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/SituacaoPressao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/SituacaoPressao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/TipoAlimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/TipoAlimentacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/TipoAtividadeFisica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/TipoAtividadeFisica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/MedidasDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/MedidasDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/AlimentacaoMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/AlimentacaoMongoDBDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/AtividadeFisicaMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/AtividadeFisicaMongoDBDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDBKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasMongoDBDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/PesoMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/PesoMongoDBDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/PressaoMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/medidas/dao/mongodb/PressaoMongoDBDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/Genero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/Genero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/HealthTrackKotlin$HealthTrackKotlin__wrapper_.ic" NAME="HealthTrackKotlin [wrapper] Coverage Results" MODIFIED="1547129242297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HealthTrackKotlin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HealthTrackKotlin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HealthTrackKotlin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HealthTrackKotlin" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HealthTrackTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HealthTrackTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/UserDao.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMongoDBDao.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="e#41#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedidasDaoMongoDB.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedidasDao.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedidasController.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#53#248#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="172">
+              <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoDBBase.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="579">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Peso.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/TokenController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.javalin/javalin/2.3.0/bc4424355f7eaec4423372af9b1363cde9555d10/javalin-2.3.0-sources.jar!/io/javalin/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -166,16 +178,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Gradle Kotlin DSL Settings" />
         <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
-    <findStrings>
-      <find>_id</find>
-    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,113 +193,80 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/alimentacao/TipoAlimentacao.java" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/QualificadorMedidas.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/alimentacao/TipoAlimentacao.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/MedidaCalorico.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/alimentacao/ALimentacao.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/Medida.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/finaltypes/Peso.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/finaltypes/Pressao.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/finaltypes/AtividadeFisica.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/Helper.kt" />
-        <option value="$PROJECT_DIR$/src/br/com/fiap/healthtrack/medidas/finaltypes/ALimentacao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MongoDBClientManager.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/AlimentacaoFakeDao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/finaltypes/Alimentacao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/finaltypes/AtividadeFisica.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/finaltypes/Peso.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/finaltypes/Pressao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/UserDao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasMongoDBDaoImpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/br/com/fiap/mongodb/MongoDBClientManager.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/br/com/fiap/mongodb/MongoDBBase.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Alimentacao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Pressao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/TokenController.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/UserDao.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/UserController.kt" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt" />
-        <option value="$PROJECT_DIR$/src/test/java/HealthTrackTest.kt" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1104" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="20" />
+    <option name="y" value="42" />
+    <option name="width" value="1400" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
               <item name="javelin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthTrackKotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
               <item name="javelin" type="462c0819:PsiDirectoryNode" />
@@ -297,99 +274,19 @@
             </path>
             <path>
               <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="medidas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="medidas" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="medidas" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="healthtrack" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodbao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HealthTrackKotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HealthTrackKotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.fiap.healthtrack.medidas.dao.mongodb" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\itau-consultor09\IdeaProjects\HealthTrackKotlin\src\main\java\br\com\fiap\healthtrack\medidas" />
-      <recent name="C:\Users\itau-consultor09\IdeaProjects\HealthTrackKotlin\src\main\java\br\com\fiap\healthtrack\br\com\fiap\mongodb" />
-      <recent name="C:\Users\itau-consultor09\IdeaProjects\HealthTrackKotlin\src\main\java\br\com\fiap\healthtrack\medidas\dao\mongodb" />
-      <recent name="C:\Users\itau-consultor09\IdeaProjects\HealthTrackKotlin\src\br\com\fiap\healthtrack\medidas\finaltypes" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549635084180" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,44 +301,46 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin.br.com.fiap.healthtrack.javelin.AppKt">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="HealthTrackKotlin [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="HealthTrackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HealthTrackTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    <configuration name="HealthTrackKotlin [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="br.com.fiap.healthtrack.javelin.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
+      <module name="test.sidh.HealthTrackKotlin.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -449,84 +348,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.com.fiap.healthtrack.javelin.AppKt" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="br.com.fiap.healthtrack.medidas.dao.mongodb.MedidasDaoMongoDBKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.healthtrack.medidas.dao.mongodb.MedidasDaoMongoDBKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="br.com.fiap.healthtrack.medidas.finaltypes.ALimentacaoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.healthtrack.medidas.finaltypes.ALimentacaoKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="br.com.fiap.healthtrack.medidas.finaltypes.AtividadeFisicaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.healthtrack.medidas.finaltypes.AtividadeFisicaKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="br.com.fiap.healthtrack.user.dao.mongodbao.UserMongoDBDaoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HealthTrackKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.healthtrack.user.dao.mongodbao.UserMongoDBDaoKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <list>
-      <item itemvalue="Kotlin.br.com.fiap.healthtrack.medidas.dao.mongodb.MedidasDaoMongoDBKt" />
-      <item itemvalue="JUnit.HealthTrackTest" />
-      <item itemvalue="Kotlin.br.com.fiap.healthtrack.medidas.finaltypes.ALimentacaoKt" />
-      <item itemvalue="Kotlin.br.com.fiap.healthtrack.medidas.finaltypes.AtividadeFisicaKt" />
-      <item itemvalue="Kotlin.br.com.fiap.healthtrack.user.dao.mongodbao.UserMongoDBDaoKt" />
-      <item itemvalue="Kotlin.br.com.fiap.healthtrack.javelin.AppKt" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.br.com.fiap.healthtrack.javelin.AppKt" />
-        <item itemvalue="JUnit.HealthTrackTest" />
-        <item itemvalue="Kotlin.br.com.fiap.healthtrack.user.dao.mongodbao.UserMongoDBDaoKt" />
-        <item itemvalue="Kotlin.br.com.fiap.healthtrack.medidas.finaltypes.AtividadeFisicaKt" />
-        <item itemvalue="Kotlin.br.com.fiap.healthtrack.medidas.finaltypes.ALimentacaoKt" />
+        <item itemvalue="Gradle.HealthTrackKotlin [wrapper]" />
+        <item itemvalue="Gradle.HealthTrackKotlin [init]" />
       </list>
     </recent_temporary>
   </component>
@@ -535,104 +365,77 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af7ed4af-8cd4-4fcd-bd63-ec8ea2d52d2a" name="Default" comment="" />
-      <created>1544810537302</created>
+      <changelist id="3610dfe9-5bef-4547-8226-6fede3b54168" name="Default Changelist" comment="" />
+      <created>1547052278473</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544810537302</updated>
+      <updated>1547052278473</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="HealthTrackTest - 2018.12.20 at 12h 11m 22s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 12h 12m 54s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 12h 13m 34s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 12h 18m 09s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 12h 18m 20s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 17h 46m 01s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.20 at 17h 47m 27s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.21 at 19h 15m 10s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.21 at 19h 40m 54s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealthTrackTest - 2018.12.21 at 19h 42m 52s.xml">
-      <configuration name="HealthTrackTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.2569956" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39759037" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.386747" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49882904" weight="0.32482994" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014641" side_tool="true" weight="0.36741215" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4980484" visible="true" weight="0.35544217" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49853587" weight="0.36734694" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3290735" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3298969" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt</url>
-          <line>68</line>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt</url>
+          <line>86</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Alimentacao.kt</url>
-          <line>65</line>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt</url>
+          <line>187</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt</url>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="72" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="73" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -643,488 +446,246 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ctx.body()</expression-string>
+        <expression-string>mongoCollection.find().first()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>body</expression-string>
+        <expression-string>mongoCollection.find()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>userCodec.getUserFromDocument(document?.get(&quot;user&quot;)!! as Document)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>document?.get(&quot;user&quot;)!!</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>listaMedidas.get(0)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getMongoCollection().deleteOne(Filters.eq(&quot;_id&quot;, (medida as Medida)._id))</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getMongoCollection().deleteOne(Filters.eq(Filters.eq(&quot;_id&quot;, (medida as Medida)._id)))</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getMongoCollection().find(Filters.eq(Filters.eq(&quot;_id&quot;, (medida as Medida)._id)))</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getMongoCollection().findOneAndDelete(Filters.eq(Filters.eq(&quot;_id&quot;, (medida as Medida)._id)))</expression-string>
+        <expression-string>mongoCollection.insertOne(user)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.8.1/mongodb-driver-sync-3.8.1.jar!/com/mongodb/client/MongoClient.class">
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/kotlin/App.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/UserDao.kt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="15">
+          <caret line="1948" selection-start-line="1948" selection-end-line="1948" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.5.0/mongo-java-driver-3.5.0.jar!/org/bson/conversions/Bson.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/internal/connection/BsonWriterHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="285">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.8.1/mongodb-driver-sync-3.8.1.jar!/com/mongodb/client/MongoDatabase.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/internal/connection/CommandMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasMongoDBDaoImpl.kt" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/client/model/Filters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.8.1/mongodb-driver-sync-3.8.1.jar!/com/mongodb/client/internal/MongoCollectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="235" selection-start-line="235" selection-end-line="235" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/DelegatingConstructorAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="422" selection-start-line="422" selection-end-line="422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/pojo/ClassModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/pojo/InstanceCreatorFactoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/pojo/InstanceCreatorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/internal/connection/UsageTrackingInternalConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/internal/connection/CommandProtocolImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.8.1/mongodb-driver-sync-3.8.1.jar!/com/mongodb/client/internal/FindIterableImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.8.1/mongodb-driver-sync-3.8.1.jar!/com/mongodb/client/internal/MongoClientDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/operation/OperationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="387" selection-start-line="387" selection-end-line="387" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/operation/CommandResultArrayCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/pojo/PojoCodecImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/pojo/AutomaticPojoCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.8.1/bson-3.8.1.jar!/org/bson/codecs/BsonDocumentCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/internal/connection/DefaultServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/operation/CommandResultDocumentCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/internal/connection/DefaultServerConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/operation/CommandOperationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="120">
           <caret line="165" selection-start-line="165" selection-end-line="165" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.1/mongodb-driver-core-3.8.1.jar!/com/mongodb/operation/FindOperation.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/internal/connection/RequestMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="700" selection-start-line="700" selection-end-line="700" />
+        <state relative-caret-position="172">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Helper.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/internal/connection/InternalStreamConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Pressao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/javalin/javalin/2.4.0/javalin-2.4.0.jar!/io/javalin/security/AccessManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.jar!/org/eclipse/jetty/server/Request.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="533" selection-start-line="533" selection-end-line="533" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/javalin/javalin/2.4.0/javalin-2.4.0.jar!/io/javalin/security/SecurityUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="277">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Alimentacao.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="705">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
-            <element signature="e#41#348#0" expanded="true" />
+            <element signature="e#41#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/operation/BulkWriteBatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        <state relative-caret-position="250">
+          <caret line="108" column="61" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Medida.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
-            <element signature="e#38#219#0" expanded="true" />
+            <element signature="e#42#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/kmehrunes/javalin-jwt/v0.1/javalin-jwt-v0.1.jar!/javalinjwt/JavalinJWT.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.9.1/c69584ae65dc1d2b4027c51d5f593c735e64b066/mongodb-driver-core-3.9.1-sources.jar!/com/mongodb/MongoClientSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/javalin/javalin/2.4.0/javalin-2.4.0.jar!/io/javalin/core/JavalinServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/javalin/javalin/2.4.0/javalin-2.4.0.jar!/io/javalin/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/javalin/javalin/2.4.0/javalin-2.4.0.jar!/io/javalin/Javalin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="324" column="19" selection-start-line="324" selection-start-column="19" selection-end-line="324" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/TokenController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1929">
+          <caret line="597" column="12" selection-start-line="597" selection-start-column="12" selection-end-line="597" selection-end-column="12" />
           <folding>
-            <element signature="e#53#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#41#360#0" expanded="true" />
+            <element signature="e#4615#4616#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+            <element signature="e#17107#17108#0" expanded="true" />
+            <element signature="e#17167#17168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/mongodb/MongoDBBase.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="90">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.9.1/f6be551aed420fd593d8aafb147c791ac38219e0/bson-3.9.1-sources.jar!/org/bson/codecs/BsonDocumentWrapperCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="615">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/User.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+        <state relative-caret-position="158">
+          <caret line="135" column="37" lean-forward="true" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HealthTrackTest.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.javalin/javalin/2.3.0/bc4424355f7eaec4423372af9b1363cde9555d10/javalin-2.3.0-sources.jar!/io/javalin/core/ExceptionMapper.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        <state relative-caret-position="168">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.javalin/javalin/2.3.0/bc4424355f7eaec4423372af9b1363cde9555d10/javalin-2.3.0-sources.jar!/io/javalin/core/JavalinServlet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Peso.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#53#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/UserDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="630">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/user/dao/mongodbao/UserMongoDBDao.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="690">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/MedidasDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/UserController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/Pressao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/dao/mongodb/MedidasDaoMongoDB.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/MedidasController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/App.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="e#41#443#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/controllers/TokenController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.javalin/javalin/2.3.0/bc4424355f7eaec4423372af9b1363cde9555d10/javalin-2.3.0-sources.jar!/io/javalin/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/javelin/security.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/fiap/healthtrack/medidas/AtividadeFisica.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
   </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>HealthTrackKotlin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,98 @@
+buildscript {
+    ext {
+        kotlinVersion = '1.2.60'
+        detektVersion = '1.0.0.RC9'
+        artifactoryVersion = '4.7.5'
+        groupName = 'test.sidh'
+    }
+    repositories {
+        maven {
+            url "${artifactory_repository}"
+            credentials {
+                username = "${artifactory_user}"
+                password = "${artifactory_password}"
+            }
+        }
+    }
+    dependencies {
+        classpath "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:${detektVersion}"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:${artifactoryVersion}"
+    }
+}
+
+
+apply plugin: 'com.jfrog.artifactory'
+apply plugin: 'io.gitlab.arturbosch.detekt'
+apply plugin: 'org.jetbrains.kotlin.jvm'
+apply plugin: 'maven'
+
+group   "${groupName}"
+version '1.0.15'
+
+repositories {
+    maven {
+        url "${artifactory_repository}"
+        credentials {
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+
+    }
+}
+
+dependencies {
+    // kotlin
+    compile 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+
+    // public libs
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.6'
+    compile 'org.mindrot:jjbcrypt:0.4'
+    compile 'com.github.kmehrunes:javalin-jwt:v0.1'
+    compile 'org.mongodb:mongodb-driver-sync:3.9.1'
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.2'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.6'
+    compile 'org.slf4j:slf4j-simple:1.7.25'
+    compile 'io.javalin:javalin:2.3.0'
+    compile 'org.jetbrains.kotlin:kotlin-test:{kotlin.version}'
+    compile 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    compile 'junit:junit:4.12'
+
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allSource
+    classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+build.dependsOn sourcesJar
+
+detekt {
+    detektVersion = "${detektVersion}"
+    config = files("default-detekt-config.yml")
+    reports {
+        xml {
+            enabled = true
+            destination = file("build/reports/detekt.xml")
+        }
+        html {
+            enabled = true
+            destination = file("build/reports/detekt.html")
+        }
+    }
+}

@@ -1,0 +1,434 @@
+{
+	"info": {
+		"_postman_id": "dc543814-4094-4738-a8dd-da1e2742bb51",
+		"name": "Projeto de Estudo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Alimentacao: Add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "calorias",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "descricao",
+							"value": "Corrida no parque pela manhã",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/alimentacao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"alimentacao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alimentacao: Get All",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7000/atividade-fisica",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"atividade-fisica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atividade Fisica: Add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "calorias",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "descricao",
+							"value": "Corrida no parque pela manhã",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/atividade-fisica",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"atividade-fisica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atividade Fisica: Get All",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7000/atividade-fisica",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"atividade-fisica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Peso: Add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "peso",
+							"value": "50.0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/pesos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"pesos"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Peso: Get All",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7000/pesos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"pesos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pressao: Add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNpZGhhcnRhLnJlemVuZGVAZ21haWwuY29tIn0.PXX2Or05yncAk3FJEyMMc2S11EYJK1zJZxfjGLDe3iI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "peso",
+							"value": "50.0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/pesos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"pesos"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pressao: Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Token: Generate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "sidharta.rezende@gmail.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "sidharta.rezende@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User: Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "sidharta.rezende@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:7000/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

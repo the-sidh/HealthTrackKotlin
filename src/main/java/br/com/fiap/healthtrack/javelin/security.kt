@@ -29,7 +29,7 @@ object TokenProvider {
 object Auth {
 
     fun accessManager(handler: Handler, ctx: Context, permittedRoles: Set<Role>) {
-        if (ctx.matchedPath() == "/generate")
+        if (ctx.matchedPath() == "/generate" || ctx.matchedPath()=="/user")
             handler.handle(ctx)
         else
             try {

@@ -16,10 +16,10 @@ class AtividadeFisica(user: User, data: Date, calorias: Int, tipo: TipoAtividade
 }
 
 enum class TipoAtividadeFisica(val descricao: String) {
-    CORRIDA("corrida"),
-    CAMINHADA("caminhada"),
-    MUSCULACAO("musculação"),
-    PEDALADA("pedalada")
+    CORRIDA("Corrida"),
+    CAMINHADA("Caminhada"),
+    MUSCULACAO("Musculação"),
+    PEDALADA("Pedalada")
 }
 
 class AtividadeFisicaCodec(val documentCodec : Codec<Document>) : CollectibleCodec<AtividadeFisica> {
@@ -45,7 +45,7 @@ class AtividadeFisicaCodec(val documentCodec : Codec<Document>) : CollectibleCod
         document.put("_id", value?._id)
         document.put("calorias",  value?.calorias)
         val descricaoTipoAlimentacao = qualificadorTipo?.descricao
-        document.put("tipoAlimentacao", descricaoTipoAlimentacao)
+        document.put("tipoAtividadeFisica", descricaoTipoAlimentacao)
         document.put("date", value?.data)
         document.put("descricao",  value?.descricao)
 
@@ -59,7 +59,7 @@ class AtividadeFisicaCodec(val documentCodec : Codec<Document>) : CollectibleCod
     override fun decode(reader: BsonReader?, decoderContext: DecoderContext?): AtividadeFisica {
         val document = documentCodec?.decode(reader, decoderContext)
         val medida = AtividadeFisica()
-        val descTipoAlimentacao = document?.getString("tipoAlimentacao")
+        val descTipoAtividadeFisica= document?.getString("tipoAtividadeFisica")
         val defaultDocumentCodec = MongoClientSettings.getDefaultCodecRegistry().get(Document::class.java)
         val userCodec = UserCodec(defaultDocumentCodec)
         medida.user = userCodec.getUserFromDocument(document?.get("user")!! as Document)
@@ -70,7 +70,7 @@ class AtividadeFisicaCodec(val documentCodec : Codec<Document>) : CollectibleCod
         map.put("Musculação", TipoAtividadeFisica.MUSCULACAO);
         map.put("Pedalada", TipoAtividadeFisica.PEDALADA);
 
-        val qualificadorMedidas = map[descTipoAlimentacao]
+        val qualificadorMedidas = map[descTipoAtividadeFisica]
         medida.data = document?.getDate("date")!!
         medida._id =  document?.getString("_id")!!
         medida.calorias = document?.getInteger("calorias")!!
